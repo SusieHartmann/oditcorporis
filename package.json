@@ -1,0 +1,23 @@
+{
+  "name": "oditcorporis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "src/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SusieHartmann/oditcorporis.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx eslint . --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@linzjs/style": "^5.0.0"
+  },
+  "author": "AlanBogisich",
+  "bugs": {
+    "url": "https://github.com/SusieHartmann/oditcorporis.git/issues"
+  },
+  "homepage": "https://github.com/SusieHartmann/oditcorporis.git"
+}
